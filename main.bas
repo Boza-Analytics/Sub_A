@@ -8,4 +8,6 @@ Sub ListSheets()
         ActiveSheet.Cells(i, 1).Value = ws.Name
         i = i + 1
     Next ws
+    
+    MsgBox "Seznam listů byl vypsán do sloupce A."
 End Sub
